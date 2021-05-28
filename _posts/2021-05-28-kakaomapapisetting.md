@@ -1,4 +1,7 @@
-# KAKAO MAP API 설정 -  Android Native App
+---
+layout: single
+title: KAKAO MAP API 설정 -  Android Native App
+---
 
 ##  ##
 
