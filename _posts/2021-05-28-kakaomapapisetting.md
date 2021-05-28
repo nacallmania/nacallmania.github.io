@@ -4,7 +4,7 @@ title: KAKAO MAP API 설정 -  Android Native App
 sidebar:
     nav: "main"
 categories: AndroidApp
-tags: KAKAO_MAP
+tags: KAKAO MAP
 # 목차
 toc: true  
 toc_sticky: true 
