@@ -1,8 +1,6 @@
 ---
 layout: single
 title: KAKAO MAP API 설정 -  Android Native App
-sidebar:
-    nav: "main"
 categories: AndroidApp
 tags: KAKAO MAP
 # 목차
