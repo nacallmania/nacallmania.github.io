@@ -282,3 +282,4 @@ defaults:
       related: true
       nav: "main"
       show_date: true      
+      search: true
