@@ -277,8 +277,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
       nav: "main"
-      show_date: true
+      show_date: true      
