@@ -79,7 +79,8 @@ KAKAO 지도 API를 사용하기 위한 설정은 다음 위치에서 설명하�
          }
      }
    ```
-​			
+5. 마지막으로build.gradle(Module)에 아래의 dependency를 추가하고 **sync now** 를 실행하자.
+   - implementation files('libs/libDaumMapAndroid.jar')   
 ```
 ```
 
