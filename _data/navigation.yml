@@ -7,6 +7,6 @@ main:
   - title: "년도"
     url: /year-archive/
   - title: "태그"
-    url: /tag-archive/
+    url: /tags/
   # - title: "Sitemap"
   #   url: /sitemap/
