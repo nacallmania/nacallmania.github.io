@@ -285,3 +285,4 @@ defaults:
       search: true
       paginate: 10
       paginate_path: /recent/page:num/
+      breadcrumbs: true
