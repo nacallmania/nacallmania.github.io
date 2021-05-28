@@ -281,3 +281,4 @@ defaults:
       share: true
       related: true
       nav: "main"
+      show_date: true
