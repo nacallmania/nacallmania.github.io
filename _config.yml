@@ -283,3 +283,5 @@ defaults:
       nav: "main"
       show_date: true      
       search: true
+      paginate: 10
+      paginate_path: /recent/page:num/
