@@ -15,7 +15,7 @@ KAKAO 지도 API를 사용하기 위한 설정은 다음 위치에서 설명하�
 
    - libDaumMapAndroid.jar 파일과 3개의 so 파일이 있을 것이다.
    - libDaumMapAndroid.jar 파일은 libs folder 아래에 복사한다.
-   - 나머지 folder는 main folder 아래에 jniLibs folder 를 만들고 아레에 복사한다.
+   - 나머지 folder는 main folder 아래에 jniLibs folder 를 만들고 아래에 복사한다.
 
 3. AndroidManifest.xml 에 Permission 과 APP KEY를 추가한다.
 
