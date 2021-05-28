@@ -1,6 +1,13 @@
 ---
 layout: single
 title: KAKAO MAP API 설정 -  Android Native App
+sidebar:
+    nav: "main"
+categories: AndroidApp
+tags: KAKAO_MAP
+# 목차
+toc: true  
+toc_sticky: true 
 ---
 
 KAKAO 지도 API를 사용하기 위한 설정은 다음 위치에서 설명하고 있다. [kakao map api 설정](https://apis.map.kakao.com/android/guide/ )
