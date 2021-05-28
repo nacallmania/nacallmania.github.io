@@ -29,10 +29,26 @@ KAKAO 지도 API를 사용하기 위한 설정은 다음 위치에서 설명하�
    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
    ```
 
-   Application Tag 안에는
+   Application Tag 에는 아래를 추가하고
    ```xml
-    <meta-data android:name="com.kakao.sdk.AppKey" android:value="6d5e7f6d5dc5fb3cdbf0bd62540b4244"/>     
+    <!-- Attributes -->
+    android:usesCleartextTraffic="true"
+    android:networkSecurityConfig="@config/net_sec_conf"
+    
+    <meta-data android:name="com.kakao.sdk.AppKey" android:value="6d5e7f6d5dc5fb3cdbf0bd62540b4244"/>      
    ```
+   여기서 설정한 net_sec_conf 는 지도 타일을 update할때 발생 가능한 예외를 처리하기 위해서 이므로 아래의 파일을 만들어서
+  ```xml
+  <?xml version="1.0" encoding="utf-8"?>
+	<net_sec_conf>
+	    <base-config cleartextTrafficPermitted="true">
+	        <trust-anchors>
+	            <certificates src="system" />
+	        </trust-anchors>
+	    </base-config>
+	</net_sec_conf>
+  ```
+  res\config folder 아래에 넣어주도록 하자.
 
 4. [kakao 개발자 사이트](https://developers.kakao.com)에서 현재 작성하고 있는 APP을 등록한다.
 
