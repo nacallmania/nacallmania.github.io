@@ -3,8 +3,6 @@ layout: single
 title: KAKAO MAP API 설정 -  Android Native App
 ---
 
-##  ##
-
 KAKAO 지도 API를 사용하기 위한 설정은 다음 위치에서 설명하고 있다. https://apis.map.kakao.com/android/guide/ 
 
 잊어 버릴 수 있으니 좀 더 간단히 요약해 둔다.
