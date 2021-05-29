@@ -21,7 +21,7 @@ IDE는 뭘 사용하지?
 
 
 
-**PyCharm**(https://www.jetbrains.com/ko-kr/pycharm/features/editions_comparison_matrix.html)
+[**PyCharm**](https://www.jetbrains.com/ko-kr/pycharm/features/editions_comparison_matrix.html)
 
 PyCharm은 Professional 과 Community 버전으로 나뉜다.
 
@@ -29,19 +29,19 @@ Cummunity버전만 사용해도 당연히 배우는 입장에서는 무리가 �
 
 
 
-**JupyterLab**(https://jupyter.org/try)
+[**JupyterLab**](https://jupyter.org/try)
 
 Jupyter는 open source라서 계속 진화 중이고 인기 급상승 중인 JupytertLab.
 
 특히 internet browser를 통해서 coding이 가능한 점을 높이 사고 싶다.
 
-Colab(https://colab.research.google.com/notebooks/intro.ipynb)
+[**Colab**](https://colab.research.google.com/notebooks/intro.ipynb)
 
 Colab은 역시나 google 스럽다. Python설치 없이도 어디서든 작업이 가능하다. 나는 이미 Google Drive를 사용하고 있기에 연결해서 쓸수도 있고...
 
 
 
-**Visual Studio Code**(https://code.visualstudio.com/)
+[**Visual Studio Code**](https://code.visualstudio.com/)
 
 Visual Studio Code는 Python만을 위한 전용 Tool은 아니지만 강력한 개발 Tool이라고 생각한다.
 
