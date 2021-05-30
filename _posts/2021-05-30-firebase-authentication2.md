@@ -7,7 +7,7 @@ toc: true
 toc_sticky: true
 ---
 	
-	**Authentication/Login Activity Sample**
+	####**Authentication/Login Activity - FirebaseUI( Google ) Example**
 	
 	```java
     private FirebaseAuth firebaseAuth = null;
