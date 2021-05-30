@@ -7,9 +7,9 @@ toc: true
 toc_sticky: true
 ---
 	
-	####**Authentication/Login Activity - FirebaseUI( Google ) Example**
+	**Authentication/Login Activity - FirebaseUI( Google ) Example**
 	
-	```java
+	  ```java
     private FirebaseAuth firebaseAuth = null;
     private GoogleSignInClient googleSignClient;
     private static final int RC_SIGN_IN = 9001;
@@ -85,4 +85,4 @@ toc_sticky: true
                     }
                 });
     }
-	```
+	  ```
