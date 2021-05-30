@@ -11,9 +11,12 @@ toc_sticky: true
 **Authentication/Login Activity - FirebaseUI( Google ) Example**
 
 ```java
+// Firebase authentication기능을 사용하기 위해
 private FirebaseAuth firebaseAuth = null;
+// Google Sign In API를 call하기 위한 client
 private GoogleSignInClient googleSignClient;
 private static final int RC_SIGN_IN = 9001;
+// Google Sign In Button
 private SignInButton signInButton;
 
 @Override
@@ -44,14 +47,17 @@ private void SignIn() {
     startActivityForResult(signInIntent, RC_SIGN_IN);
 }
 
+// 로그 아웃을 위해 사용
 private void SignOut() {
     FirebaseAuth.getInstance().signOut();
 }
 
+// 회원 탈퇴를 위해 사용
 private void DeleteAccount() {
     firebaseAuth.getCurrentUser().delete();
 }
 
+// SignIn()의 startActivityForResult 의 결과
 @Override
 public void onActivityResult(int requestCode, int resultCode, Intent data) {
     super.onActivityResult(requestCode, resultCode, data);
