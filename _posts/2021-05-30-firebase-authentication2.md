@@ -16,7 +16,10 @@ Firebase로 Google SignIn기능을 사용하기 위해서는 먼저 다음 과�
   - Firebase의 console에서 project를 선택한 후 왼쪽 navigation에서 Authentication을 선택한다.
   - 만약 Google login을 사용하려면 "Sign-in method" tab에서 Google을 사용상태로 설정한다.
   - [SHA-1 설정](https://nacallmania.github.io/firebase/gradle-sha1/)
-3. [모듈 수준 build.gradle 설정](https://firebase.google.com/docs/auth/android/google-signin?hl=ko)
+3. Project 수준 build.gradle 설정
+  - dependency에 classpath 'com.google.gms:google-services:4.3.8' 추가
+  - repositories에 google() 추가
+4. [모듈 수준 build.gradle 설정](https://firebase.google.com/docs/auth/android/google-signin?hl=ko)
 
 **Google Login을 위한 Activity의 간단 예제**
 ```java
