@@ -15,6 +15,7 @@ Firebase로 google signin기능을 사용하기 위해서는 먼저 다음 과�
 2. [Firebase Authentication 설정](https://nacallmania.github.io/firebase/gradle-sha1/)
 3. [모듈 수준 build.gradle 설정](https://firebase.google.com/docs/auth/android/google-signin?hl=ko)
 
+**Login을 위한 Activity의 간단 예제**
 ```java
 // Firebase authentication기능을 사용하기 위해
 private FirebaseAuth firebaseAuth = null;
