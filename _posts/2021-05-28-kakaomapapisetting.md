@@ -95,6 +95,9 @@ KAKAO 지도 API를 사용하기 위한 설정은 다음 위치에서 설명하�
          }
      }
    ```
+   주의 : 만약 Hash 값을 얻은 PC 외에 다른 개발 PC에서 build 하거나 개발 환경이 달라지면 Hash 값이 달라지게 된다.
+   따라서 Kakao developer site에 Hash값을 추가로 등록해야 한다.
+   팀이 공동 작업을 하는 겨우라면 모든 팀원들의 개발 환경에서 얻은 Haash값을 등록해야 한다.
 5. 마지막으로build.gradle(Module)에 아래의 dependency를 추가하고 **sync now** 를 실행하자.
    - implementation files('libs/libDaumMapAndroid.jar')   
 ```
