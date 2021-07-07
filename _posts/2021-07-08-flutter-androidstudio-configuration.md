@@ -15,8 +15,7 @@ Android Studio에서 Flutter를 Setting하기 위해서는...
 2. 압축이 풀린 Flutter folder에서 flutter _console.bat 파일을 찾아서 실행한다.
 3. Flutter의 설치 상태를 확인하기 위하여 Commnad prompt에서 아래와 같이 flutter doctor 를 입력한다.
 
-![flutterdoctor](./images/flutterdoctor.png)
-
+<img src="./images/flutterdoctor.png"/>
 
 
 4. 위 그림과 같이 Unable to locate Android SDK가 나타나는 경우는 flutter가 Android SDK 가 설치된 folder 위치를 알 수 있도록 설정해 주면 된다.   
