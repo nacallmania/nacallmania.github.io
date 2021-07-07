@@ -23,11 +23,11 @@ Android Studio에서 Flutter를 Setting하기 위해서는...
 
    flutter config --android-studio-dir=폴더 위치 
 
-![flutterdoctor2](../images/flutterdoctor2.png)
+![flutterdoctor2](https://github.com/nacallmania/nacallmania.github.io/blob/master/images/flutterdoctor2.png)
 
 5. Android SDK위치를 설정한 후에도 Android license 오류가 발생할 수 있다. 이 경우는 flutter doctor --android-licenses를 실행하면 된다. 
 
-   ![flutterdoctor3](../images/flutterdoctor3.png)
+   ![flutterdoctor3](https://github.com/nacallmania/nacallmania.github.io/blob/master/images/flutterdoctor3.png)
 
    그런데 이렇게 해도 여전히 license 오류가 발생하는 경우도 있다.  
 
